@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
-import IndexPage from './components/indexPage'
+import Layout from './pages/layout'
+import IndexPage from './pages/indexPage'
+import PersonMsg from './pages/personMsg'
 Vue.use(Router)
-Vue.config.productionTip = false
+//Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 let router = new Router({
@@ -13,13 +15,17 @@ let router = new Router({
 	routes:[
 		{
 			path:'/',
-			component:IndexPage
+			component:IndexPage,
+		},
+		{
+			path:'/personMsg',
+			component:PersonMsg
 		}
 	]
 });
 new Vue({
   el: '#app',
   router,
-  components: { IndexPage },
-  template: '<IndexPage/>'
+  components: { Layout },
+  template: '<Layout/>'
 })
