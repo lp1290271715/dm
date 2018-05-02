@@ -20,6 +20,10 @@ let router = new Router({
 		{
 			path:'/personMsg',
 			component:PersonMsg
+		},
+		{
+			path:'/index',
+			component:IndexPage
 		}
 	]
 });

@@ -135,13 +135,6 @@ a {
   color: #2c3e50;
   /*width: 80%;
   margin: 0 auto;*/
-  .underline{
-		background: #2C3E50;
-		height: .1em;
-	}
-	.indexPage-logo{
-		padding: .6em 0;
-	}
 	
 	.indexPage-userShow{
 		background: #D7D7D7;

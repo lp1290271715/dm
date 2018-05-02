@@ -49,7 +49,8 @@ ul {
   margin: 0;
 }
 a {
-  color: #42b983;
+	text-decoration: none;
+  color: inherit;
 }
 .navigate{
 	ul{
@@ -73,6 +74,11 @@ a {
 				background: gray;
 				color: rgb(255,255,255);
 				font-weight: bold;
+			}
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
 			}
 		}
 	}
